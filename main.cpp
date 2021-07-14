@@ -9,7 +9,6 @@ CPU test;
 BUS bus;
 int main() {
     bus.attachCPU(test);
-    for(int i = 0; i < 256; i++ )
-    std::cout << opcodes[i].instructionname << std::endl;
+
     return 0;
 }
