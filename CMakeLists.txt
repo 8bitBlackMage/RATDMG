@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.19)
+project(RATDMG)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(RATDMG main.cpp SYSTEM/CPU.cpp SYSTEM/CPU.h SYSTEM/BUS.cpp SYSTEM/BUS.h SYSTEM/INSTRUCTIONS.h SYSTEM/INSTRUCTIONS.cpp)
